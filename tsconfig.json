@@ -23,6 +23,10 @@
     //     "react": ["node_modules/@types/react"]
     // }
   },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
   "exclude": [
     "node_modules",
     "build",
@@ -31,5 +35,7 @@
     "webpack",
     "jest",
     "src/setupTests.ts"
+    //temporarily exclude all files
+    // "src"
   ]
 }
